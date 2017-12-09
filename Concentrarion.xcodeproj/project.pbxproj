@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A37472B1FDBFD3D000C99E2 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A37472A1FDBFD3D000C99E2 /* Concentration.swift */; };
+		1A37472D1FDBFF73000C99E2 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A37472C1FDBFF73000C99E2 /* Card.swift */; };
 		1A8C35E41FD46B0F00C2DB04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8C35E31FD46B0F00C2DB04 /* AppDelegate.swift */; };
 		1A8C35E61FD46B0F00C2DB04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8C35E51FD46B0F00C2DB04 /* ViewController.swift */; };
 		1A8C35E91FD46B0F00C2DB04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A8C35E71FD46B0F00C2DB04 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A37472A1FDBFD3D000C99E2 /* Concentration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		1A37472C1FDBFF73000C99E2 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		1A8C35E01FD46B0F00C2DB04 /* Concentrarion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concentrarion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A8C35E31FD46B0F00C2DB04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A8C35E51FD46B0F00C2DB04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 		1A8C35E21FD46B0F00C2DB04 /* Concentrarion */ = {
 			isa = PBXGroup;
 			children = (
+				1A37472A1FDBFD3D000C99E2 /* Concentration.swift */,
+				1A37472C1FDBFF73000C99E2 /* Card.swift */,
 				1A8C35E51FD46B0F00C2DB04 /* ViewController.swift */,
 				1A8C35E71FD46B0F00C2DB04 /* Main.storyboard */,
 				1A8C35F51FD46B4D00C2DB04 /* Supporting Files */,
@@ -147,6 +153,8 @@
 			files = (
 				1A8C35E61FD46B0F00C2DB04 /* ViewController.swift in Sources */,
 				1A8C35E41FD46B0F00C2DB04 /* AppDelegate.swift in Sources */,
+				1A37472B1FDBFD3D000C99E2 /* Concentration.swift in Sources */,
+				1A37472D1FDBFF73000C99E2 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +320,7 @@
 				1A8C35F41FD46B0F00C2DB04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
