@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A37472B1FDBFD3D000C99E2 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A37472A1FDBFD3D000C99E2 /* Concentration.swift */; };
+		1A37472D1FDBFF73000C99E2 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A37472C1FDBFF73000C99E2 /* Card.swift */; };
 		1A8C35E41FD46B0F00C2DB04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8C35E31FD46B0F00C2DB04 /* AppDelegate.swift */; };
 		1A8C35E61FD46B0F00C2DB04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8C35E51FD46B0F00C2DB04 /* ViewController.swift */; };
 		1A8C35E91FD46B0F00C2DB04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A8C35E71FD46B0F00C2DB04 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A37472A1FDBFD3D000C99E2 /* Concentration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		1A37472C1FDBFF73000C99E2 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		1A8C35E01FD46B0F00C2DB04 /* Concentrarion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concentrarion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A8C35E31FD46B0F00C2DB04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A8C35E51FD46B0F00C2DB04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 		1A8C35E21FD46B0F00C2DB04 /* Concentrarion */ = {
 			isa = PBXGroup;
 			children = (
+				1A37472A1FDBFD3D000C99E2 /* Concentration.swift */,
+				1A37472C1FDBFF73000C99E2 /* Card.swift */,
 				1A8C35E51FD46B0F00C2DB04 /* ViewController.swift */,
 				1A8C35E71FD46B0F00C2DB04 /* Main.storyboard */,
 				1A8C35F51FD46B4D00C2DB04 /* Supporting Files */,
@@ -99,7 +105,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Kostiantyn Bilyk";
 				TargetAttributes = {
 					1A8C35DF1FD46B0F00C2DB04 = {
@@ -147,6 +153,8 @@
 			files = (
 				1A8C35E61FD46B0F00C2DB04 /* ViewController.swift in Sources */,
 				1A8C35E41FD46B0F00C2DB04 /* AppDelegate.swift in Sources */,
+				1A37472B1FDBFD3D000C99E2 /* Concentration.swift in Sources */,
+				1A37472D1FDBFF73000C99E2 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,7 +190,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -190,7 +200,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -233,7 +247,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -241,7 +257,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -276,7 +296,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bilyk.kos.Concentrarion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -289,7 +309,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bilyk.kos.Concentrarion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -312,6 +332,7 @@
 				1A8C35F41FD46B0F00C2DB04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
